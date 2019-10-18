@@ -1,9 +1,11 @@
+<!--Modal con la información del producto seleccionado-->
 <template>
   <div>
     <transition name="fade">
       <div class="modal" v-show="showModal">
         <h3>Detalles</h3>
         <slot></slot>
+        <!--Se llama al botón que fue creado en el componente Btn.vue-->
         <btn btnColor="btn btn-small btn-danger" @click.native="closeModal()">
           Cerrar
         </btn>
