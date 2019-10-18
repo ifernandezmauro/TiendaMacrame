@@ -1,4 +1,5 @@
 <template>
+<!--Se muestra la lista de los productos-->
     <ul class="listOfProducts">
         <li v-for="(product,index) in products" :key="index" class="product">
             <img :src="product.image" alt="" class="product-image" width="100%">

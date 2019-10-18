@@ -1,3 +1,4 @@
+<!--Lista de productos en el carrito, se debe mejorar para poder acumular el mismo producto y que se vea al frente de todos los elementos-->
 <template>
   <div class="box">
     <span v-if="!hasProduct()">No products :/</span>
