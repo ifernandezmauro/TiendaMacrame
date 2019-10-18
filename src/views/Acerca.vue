@@ -1,6 +1,9 @@
+<!--Línea de tiempo con hitos importantes de como ha crecido la empresa-->
 <template>
   <section>
+      <!--Navbar que debe ser borrado, para hacerlo agregarlo en App.vue-->
     <Navbar />
+        <!--Línea de tiempo que recorre "years" que se establecen en el script-->
     <v-timeline>
       <v-timeline-item v-for="(year, i) in years" :key="i" :color="year.color" small>
         <template v-slot:opposite>
@@ -20,6 +23,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+// Componentes que deben ser exportados para ser utilizados, además de la información que contiene los timeline-item
 export default {
   components: {Navbar, Footer},
   data: () => ({
