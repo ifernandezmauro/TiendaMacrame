@@ -5,6 +5,7 @@
   </button>
 </template>
 
+<!-- Se exportan las propiedades que se utilizan en el template para ser utilizadas, por el momento cartIcon no se utiliza -->
 <script>
 export default {
   props: ['btnColor', 'cartIcon'],
