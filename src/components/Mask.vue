@@ -1,3 +1,4 @@
+<!--Fondo que queda cuando aparece el modal-->
 <template>
   <div class="mask"></div>
 </template>
