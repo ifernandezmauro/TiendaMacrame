@@ -1,10 +1,13 @@
+<!--Barra de navegación de la página que se muestra en a través de todo el sitio web-->
 <template>
   <v-toolbar style="background-color: #D97B59">
+  <!--Logo de la tienda en la parte izquierda del navbar-->
     <v-avatar :tile="true">
       <img :src="require('@/assets/logo blanco.png')" alt="logo" />
     </v-avatar>
     <v-toolbar-title style="color:white" class="font-weight-black">Macrame Tienda</v-toolbar-title>
     <div class="flex-grow-1"></div>
+    <!--Secciones de la tienda en la parte derecha del navbar-->
     <v-toolbar-items>
       <v-btn text to="/" style="color:white">Inicio</v-btn>
       <v-btn text to="/productos" style="color:white">Productos</v-btn>
