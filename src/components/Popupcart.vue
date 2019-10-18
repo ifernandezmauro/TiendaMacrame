@@ -5,7 +5,7 @@
       <img :src="product.image" alt="" class="item-thumb">
       <h3 class="item-name">{{ product.name }}</h3>
       <span class="item-amount">Cantidad: 1</span>
-      <span class="item-price">R$ {{ product.price }}</span>
+      <span class="item-price">CLP$ {{ product.price }}</span>
     </div>
     <div class="cart-info" v-if="hasProduct()">
       <span>Total: CLP$ {{ totalPrice() }}</span>
